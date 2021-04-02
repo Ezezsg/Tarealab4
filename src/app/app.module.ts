@@ -10,13 +10,15 @@ import { FormsModule } from '@angular/forms';//para el [(ngModel)]
 import { ErrorComponent } from './componentes/error/error.component'; 
 import { BindeoComponent } from './componentes/bindeo/bindeo.component';
 import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BindeoComponent,
     ErrorComponent,
-    BienvenidoComponent
+    BienvenidoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
