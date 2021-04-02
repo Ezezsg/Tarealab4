@@ -1,0 +1,47 @@
+
+<h1 class="mt-3">Bindeo Simple</h1>
+
+<div class="border border-danger">{{ejemplo}}</div>
+
+<br>
+<br>
+<h1>Bindeo Doble</h1>
+
+
+<div class="input-group mb-3">
+  	<input type="text" class="form-control" placeholder="Escriba" aria-label="Escriba" aria-describedby="basic-addon1" [(ngModel)]="ejemplo2">
+</div>
+<div class="border border-danger">
+	<p>{{ejemplo2}}</p>
+</div>
+
+<br>
+<br>
+<button (click)="pruebaClick()" type="button" class="btn btn-danger btn-lg btn-block">Prueba click</button>
+<br>
+<div class="border border-danger">
+	<p>{{ejemplo3}}</p>
+</div>
+
+<br>
+<br>
+<h1>Suma y Promedio de Numeros</h1>
+
+<label>Ingrese un numero</label>
+<input type="text" class="form-control" [(ngModel)]="edadUno">
+<label>Ingrese otro numero</label>
+<input type="text" class="form-control" [(ngModel)]="edadDos">
+<br>
+<br>
+
+<button (click)="calcular()" class="btn btn-danger btn-lg btn-block">Calcular</button>
+
+<button (click)="limpiar()" class="btn btn-danger btn-lg btn-block">Limpiar cuadros de textos</button>
+<br>
+<br>
+<label>suma </label>
+<input type="text" class="form-control" [(ngModel)]="suma">
+<br>
+<label>promedio </label>
+<input type="text" class="form-control" [(ngModel)]="promedio">
+<br>
